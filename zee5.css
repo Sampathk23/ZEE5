@@ -5,6 +5,9 @@ body{
 nav{
     display: flex;justify-content: space-between;align-items: center;
     text-decoration: none;
+    background-color: black;
+    width: 100%;
+    
 }
 #parent{
     border: 1px  blue;
@@ -61,6 +64,7 @@ nav{
    margin-right: 50px;
 }
 .carousel-item{
+    position: relativae;
     height: 440px;width: 1100px;
     margin-top: 8px;
     margin-left: 200px;
@@ -151,4 +155,11 @@ margin-top: 10px;
 }
 #iconlink{
     margin-left: 20px;
+}
+#serch_icon{
+    position: absolute;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 5px;
+
 }
